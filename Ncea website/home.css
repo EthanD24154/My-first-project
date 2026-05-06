@@ -1,0 +1,39 @@
+#page-container {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+
+nav{
+    display:flex;
+    background-color: gray;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h2{
+    opacity:0;
+}
+
+#navcontent{
+    display:flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li{
+    display:flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
