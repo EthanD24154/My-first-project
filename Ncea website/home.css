@@ -1,6 +1,8 @@
 #page-container {
     background-color: #ffffff;
     font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width:80%;
 }
 
 header{
@@ -17,7 +19,7 @@ nav{
     list-style-type: none;
 }
 
-h2{
+#invis{
     opacity:0;
 }
 
@@ -32,8 +34,64 @@ nav ul li{
     list-style-type: none;
 }
 
+nav ul{
+    display:flex;
+    gap:20px;
+}
+
 nav ul li a{
+    display:flex;
     color: white;
     text-decoration: none;
     list-style-type: none;
 }
+
+#maincontentbox1{
+    display:flex;
+}
+
+#ncea{
+    height:100%;
+    width:100%;
+}
+
+#image{
+    width:50%;
+}
+
+#content1{
+    width:50%;
+    padding:35px;
+    font-size:20px;
+    
+}
+
+#maincontentbox2{
+    background-color:gray;
+    display:flex;
+}
+
+#content2{
+    display:flex;
+    padding:35px;
+    color:white;
+    flex-direction:column;
+}
+
+#cssimg{
+    display:flex;
+    padding:35px;
+    align-self:center;
+    height:450px;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+    
+  
+
+
+
