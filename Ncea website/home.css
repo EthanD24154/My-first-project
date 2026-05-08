@@ -90,6 +90,32 @@ footer{
     justify-content:center;
     padding:20px;
 }
+
+
+#maincontentbox3{
+    display:flex;
+    background-color:gray;
+    color:white;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content3{
+    width:50%;
+    display:flex;
+    padding:35px;
+    flex-direction:column;
+}
+
+#img2{
+    display:flex;     
+    align-items:center;
+    padding-right:130px;
+    flex-direction:column;
+    width:500px;
+    height:50%;
+}
     
   
 
