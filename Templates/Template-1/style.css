@@ -50,3 +50,16 @@ nav ul li a:hover{
     border:#000000 1px solid;
     color: #ffffff;
 }
+
+footer{
+    display:flex;
+    width:100%;
+    background-color:gray;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+    flex-direction: column;
+}
+
+footer ul li {
+    list-style-type: none;
