@@ -1,0 +1,35 @@
+.header{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    background-color:#575757;
+    width:98%;
+    height:79px;
+}
+
+.nav {
+    display:flex;
+    list-style-type:none;
+    margin-left:1190px;
+}
+
+.nav li a{
+    color:white;
+    font-size:24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 480;
+    font-style: normal;
+    text-decoration:none;
+    padding:10px;
+}
+
+.logo{
+    height:70%;
+}
+
+.heroimage{
+    background-image: url(resources/heroimage.png);
+    background-repeat: no-repeat;
+    height:500px;
+}
