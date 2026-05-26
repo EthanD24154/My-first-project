@@ -1,23 +1,34 @@
+.page-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin: 0 auto;
+    width:1440px;
+    height:100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+
 .header{
     display:flex;
     align-items:center;
-    padding:20px;
     background-color:#575757;
-    width:98%;
-    height:79px;
+    width:100%;
+    height:99px;
 }
 
 .nav {
     display:flex;
     list-style-type:none;
-    margin-left:1190px;
+    margin-left:750px;
 }
 
 .nav li a{
     color:white;
     font-size:24px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 480;
     font-style: normal;
     text-decoration:none;
@@ -25,11 +36,99 @@
 }
 
 .logo{
-    height:70%;
+    height:50%;
+    margin-left: 20px;
 }
 
 .heroimage{
     background-image: url(resources/heroimage.png);
     background-repeat: no-repeat;
-    height:500px;
+    background-size: cover;
+    height:432px;
+    width:100%;
+    color:#F2F2F7;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    font-size:25px;
+}
+
+.brand-logo{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:100%;
+    justify-content:space-around;
+}
+
+.toyota{
+    height:90px;
+    width:10%;
+}
+
+.mercedes{
+    height:90px;
+    width:10%;
+}
+
+.bmv{
+    height:90px;
+    width:7%;
+}
+
+.audi{
+    height:110px;
+    width:9%;
+}
+
+.main-content{
+    display:flex;
+    background-color:#F5F5F5;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:360px;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    height:100%;
+    justify-content: space-around;
+}
+
+.featured-car-info{
+    display:flex;
+    background-color:white;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+    height:60%;
+}
+
+.button{
+    background-color: #ED3D3D;
+    color:white;
+    font-size:18px;
+    font-weight: 540;
+    font-style: normal;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+footer{
+    display:flex;
+    background-color:#575757;
+    color:white;
+    width:100%;
+    height:100px;
+    align-items:center;
+    justify-content:center;
+    font-weight:200;
 }
