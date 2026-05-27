@@ -132,3 +132,61 @@ footer{
     justify-content:center;
     font-weight:200;
 }
+
+
+.title-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    height:200px;
+}
+
+
+.nogap{
+    margin:8px;
+}
+
+hr {
+    border: none;
+    background-color:black;
+    width:100%;
+    height: 1px;
+    
+}
+
+.font{
+    font-size:18px;
+    font-weight: 500;
+}
+
+
+.car-models{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    background-color:#F5F5F5;
+    height:100%;
+    justify-content: space-around;
+    color:white;
+}
+
+.car-model{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color: #3C3939;
+    width:20%;
+    padding-bottom:50px;
+    height:100%;
+}
+
+.car-image{
+    height:80%;
+    width:100%;
+}
+
