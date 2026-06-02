@@ -190,3 +190,50 @@ hr {
     width:100%;
 }
 
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ececec;
+}
+
+.review-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.review-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.review-card img {
+    width: 300px;
+    height: auto;
+}
+
+.review-content {
+    background: white;
+    padding: 30px;
+    width: 500px;
+}
+
+.review-content h2 {
+    margin: 0;
+}
+
+.review-content p {
+    color: #444;
+}
+
+.review-content button {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
