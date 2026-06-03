@@ -149,11 +149,10 @@ footer{
 }
 
 hr {
-    border: none;
     background-color:black;
     width:100%;
     height: 1px;
-    
+          
 }
 
 .font{
@@ -191,15 +190,14 @@ hr {
 }
 
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #ececec;
-}
+
 
 .review-section {
     text-align: center;
-    padding: 40px;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: #F5F5F5;
+    width:100%;
 }
 
 .review-card {
@@ -208,6 +206,7 @@ body {
     align-items: center;
     gap: 40px;
     margin-top: 30px;
+    
 }
 
 .review-card img {
